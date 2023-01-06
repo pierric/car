@@ -1,0 +1,37 @@
+#
+# analog sticks
+# x: left/right
+# y: up/down
+# center:0, left/up: -1, right/down: 1
+#
+lsb_x = controller.get_axis(0)
+lsb_y = controller.get_axis(1)
+rsb_x = controller.get_axis(3)
+rsb_y = controller.get_axis(4)
+
+#
+# d-pad button
+# center:0, left/down: -1, up/right: 1
+#
+(d_pad_x, d_pad_y) = controller.get_hat(0)
+
+#
+# shoulder buttons
+#
+btn_lt = controller.get_axis(2)  # released: -1, triggered: 1.0
+btn_rt = controller.get_axis(5)  # released: -1, triggered: 1.0
+
+#
+# buttons.
+# untriggered:0, triggered: 1
+#
+btn_a = controller.get_button(0)
+btn_b = controller.get_button(1)
+btn_x = controller.get_button(2)
+btn_y = controller.get_button(3)
+btn_lb = controller.get_button(4)
+btn_rb = controller.get_button(5)
+btn_back = controller.get_button(6)
+btn_start = controller.get_button(7)
+btn_lsb = controller.get_button(9)
+btn_rsb = controller.get_button(10)
