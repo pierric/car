@@ -48,7 +48,7 @@ def compute_wheel_pwm(axis_x, axis_y):
 
 def compute_cam_pos(axis_x, axis_y):
     #logging.debug(f"{axis_x}, {axis_y}")
-    return (axis_x, -axis_y)
+    return (-axis_x, -axis_y)
 
 
 class PWMController:
