@@ -2,7 +2,7 @@
 
 A toy car with camera, controller with a common joystick.
 
-Ultimate goals:
+A research bed for a few ultimate goals:
 - Rebuild the environment when driving (exploring SLAM-Nerf)
 - Locate the voice source via ODAS board, and interacte with player.
 
